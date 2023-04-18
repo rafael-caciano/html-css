@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
+
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(100, 37, 8);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 37, 8);
+}

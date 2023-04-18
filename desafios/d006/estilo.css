@@ -1,0 +1,13 @@
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+#mostrar{
+    display: none;
+}
+
+#passar_mouse:hover {
+    
+     
+}

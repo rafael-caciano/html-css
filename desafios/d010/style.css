@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf');
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+body{
+   
+    background-color: rgba(211, 192, 168, 0.719);
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2EFA2A, #177A15);
+    margin-left: -10px ;
+    margin-right: -10px ;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    box-shadow: 5px 10px 15px  rgba(0, 0, 0, 0.37);
+    min-height: 150px;
+    
+}
+
+#principal{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    min-width: 550px;
+}
+
+#p-do-titulo{
+    text-align: center;
+    color: white;
+    min-width: 550px;
+    text-shadow:3px 3px 10px rgba(0, 0, 0, 0.486);
+   
+    
+}
+
+#menu{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-weight: 700;
+  color: white;
+  width: 100vw;
+  align-items: center;
+  min-width: 550px;
+  
+  
+}
+nav{
+    height: 30%;
+    display: flex;
+    align-items: center;  
+    
+}
+
+#menu li a.botao:hover{
+    background-color: #78FB76;
+    color: #177A15;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+    transition-duration: 0.5s;
+    
+
+}
+
+
+li a.botao{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.432);
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0  0 10px 10px;
+    line-height: 1.5em;
+}
+
+h1{
+    font-family: android;
+    font-weight: normal;
+    text-shadow:3px 3px 10px rgba(0, 0, 0, 0.486);
+    
+}
+p{
+    text-indent: 20px;
+}
+h2{
+    font-family: android;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #9ef79d, #f0f0f0 );
+    color: #177A15;
+    margin: -10px;
+    padding-left: 10px ;
+}
+
+ picture{
+ margin: auto;
+ }
+
+h3{
+    background-color: #25C722;
+    color: white;
+    margin-left : -10px;
+    margin-right: -10px;
+    padding-left: 10px
+}
+
+#img-droid{
+    margin: auto;
+ }
+img.irina{
+    width: 100%;
+}
+
+div.video{
+    position: relative;
+    height: 0;
+    margin-left: -54px;
+    margin-right: -54px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section{
+    background-color: #a6f8a5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+#lista{
+    display: flex;
+    flex-direction: row;  
+    
+}
+
+#lista-d >li{
+    margin-left: 150px;
+}
+
+ul{
+    list-style: none;
+}
+ul#lista-d li::before{
+content: '✔️';
+}
+
+ul#lista-e li::before{
+    content: '✔️';
+    }
+
+
+a#link-android{
+    text-decoration: none;
+    color: #177A15;
+}
+a#link-android:hover{
+    text-decoration: underline;
+}
+a#link-android::after{
+    content: '🔗';
+}
+ footer{
+    background-color: #177A15;
+    color: white;
+    text-align: center;
+    margin-left: -10px;
+    margin-right:-10px; 
+    margin-bottom: -20px ;
+    font-size: 0.8em;
+ }
+

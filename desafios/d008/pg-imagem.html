@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilo2.css">
+</head>
+<body>
+    <h1>imagem</h1>
+    <p>Acima de 1000px temos uma imagem mais ampla, de 1000px a 750px temos uma foto em um tamanho menor e entre 750px e 350px temos uma mais estreita para facilitar a visualização</p>
+    <picture>
+        <source media="(min-width: 750px )" srcset="imagem/paisagem-g.png" type="image/png">
+        <source media="(min-width: 350px)" srcset="imagem/paisagem-m.png" type="image/png">
+        <img src="./imagem/paisagem-p.png" alt="">
+    </picture>
+    <ul>
+          <li><a href="./index.html" >Principal</a></li>
+          <li><a href="./pg-video.html">Video</a></li>
+    </ul>
+</body>
+</html>
