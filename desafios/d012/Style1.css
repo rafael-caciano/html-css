@@ -61,20 +61,27 @@ section.normal{
 section.imagem{
     background-color: aquamarine;
     color: white;
+    background-size: cover;
+    box-shadow: inset 1px 1px 10px 3px rgba(0, 0, 0, 0.527);
+    background-attachment: fixed;
 }
 
 #flor{
     background-image: url(./imagens/background001.jpg);
+    background-position: right center;
 }
 
 #livro{
     background-image: url(./imagens/background002.jpg);
+    background-position: right bottom;
 }
 section.imagem > p{
     display: inline-block;
     background-color: rgba(3, 3, 3, 0.514);
     padding: 5px;
     border-radius: 5px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.493);
+    
 }
 
 footer{
