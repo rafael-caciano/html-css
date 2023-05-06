@@ -8,9 +8,37 @@
 </head>
 <body>
     <h1>Teste de Fomulario de estado</h1>
-    <Fieldset>
-        <legend>Endereço</legend>
-    </Fieldset>
+    <form action="cadastrar.php" method="get" autocomplete="on">
+        
+            
+            <p>
+                <label for="ies">Estado:</label>
+                   <select name="estado" id="ies">
+                      <optgroup label="Região Sudeste ">
+    
+                          <option value="MG">Minas Gerais</option>
+                          <option value="RJ">Rio de Janeiro</option>
+                          <option value="SP" selected>São Paulo</option>
+                      </optgroup>
+
+                   </select>
+            </p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contador</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="PROF">Professor</option>
+                </datalist>
+
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        
+    </form>
 
 </body>
-</html>
+</html> 
