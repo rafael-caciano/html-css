@@ -56,6 +56,10 @@ menu > ul > li > a:hover{
 
 }
 
+main{
+    margin: auto;
+}
+
 main > article{
     display: block;
     margin: auto;
