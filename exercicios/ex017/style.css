@@ -9,8 +9,17 @@ body{
 h1{
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(100, 37, 8);
+    text-indent: 30px;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(100, 37, 8);
+    text-indent: 30px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+
 }
